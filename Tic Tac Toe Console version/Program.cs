@@ -96,6 +96,7 @@ namespace Tic_Tac_Toe_Console_Version
                     //Update board with and adding scores to the player that wins
                     UpdateBoard(board, scoreO, scoreX);
 
+                    //Update the score for the matching player
                     if (playerSymbol == 'O')
                     {
                         scoreO++;
